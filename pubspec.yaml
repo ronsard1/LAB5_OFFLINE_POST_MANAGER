@@ -1,0 +1,37 @@
+name: offline_posts_manager
+description: Offline Posts Manager with SQLite
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # SQLite Database
+  sqflite: ^2.3.0
+  
+  # Path provider for database location
+  path_provider: ^2.1.0
+  
+  # Path for database operations
+  path: ^1.9.0
+  
+  # For unique IDs
+  uuid: ^4.2.1
+  
+  # For toast notifications
+  fluttertoast: ^8.2.2
+  
+  # For beautiful UI
+  cupertino_icons: ^1.0.6
+  flutter_spinkit: ^5.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
